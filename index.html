@@ -3,20 +3,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio web page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>portfolio web page</h1>
-      <nav>
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#work">work</a>
-        <a href="#resume">resume</a>
-        <a href="#contact">contact</a>
+    <header class="header">
+      <h1 class="title">My portfolio</h1>
+      <nav class="navbar">
+        <a href="#home" class="nav-link">home</a>
+        <a href="#about" class="nav-link">about</a>
+        <a href="work" class="nav-link">work</a>
+        <a href="#resume" class="nav-link">resume</a>
+        <a href="#contact" class="nav-link">contact</a>
       </nav>
     </header>
     <main>
-      <section id="home">
+      <section id="home" class="section home-section">
         <h2>welcome</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
@@ -24,23 +31,23 @@
           ratione quam eius in obcae
         </p>
       </section>
-      <section id="about">
+      <section id="about" class="section about-section">
         <h2>about me</h2>
         <p>
           Hello! I’m an aspiring web developer. I enjoy creating websites and
           applications.
         </p>
         <h3>hobbies</h3>
-        <ul>
+        <ul class="hobby-list">
           <li>web dev</li>
           <li>editing vedio</li>
           <li>video games</li>
         </ul>
-        <audio controls>
+        <audio controls class="audio-player">
           <source src="audio.mp3" type="audio/mp3" />
         </audio>
       </section>
-      <section id="work">
+      <section id="work" class="section work-section">
         <h2>my work</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
@@ -48,16 +55,16 @@
           id, aperiam ea porro nesciunt quod aspernatur corrupti. Ipsum, aut
           rerum.
         </p>
-        <ul>
+        <ul class="project-list">
           <li><a href="project1.html">Project 1: E-commerce Website</a></li>
           <li><a href="project2.html">Project 2: Portfolio Website</a></li>
           <li><a href="project3.html">Project 3: Gaming Platform</a></li>
         </ul>
-        <video controls>
+        <video controls class="video-player">
           <source src="git.mp3" type="vedio/mp3" />
         </video>
       </section>
-      <section id="resume">
+      <section id="resume" class="section resume-section">
         <h2>resume</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
@@ -65,7 +72,7 @@
           repudiandae autem suscipit, tempore voluptate molestiae laboriosam
           amet vel officia accusantium quaerat ut dolorem.
         </p>
-        <table>
+        <table class="resume-table">
           <tr>
             <th>year</th>
             <th>job</th>
@@ -83,9 +90,9 @@
           </tr>
         </table>
       </section>
-      <section id="contact">
+      <section id="contact" class="section contact-section">
         <h2>contact me</h2>
-        <form action="#" method="post">
+        <form action="#" method="post" class="contact-form">
           <label for="name">Name:</label><br />
           <input type="text" id="name" name="name" required /><br /><br />
 

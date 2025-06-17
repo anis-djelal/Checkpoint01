@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+/* Header */
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  margin: 0;
+}
+.navbar {
+  margin-top: 10px;
+}
+.nav-link {
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #f6ff00;
+}
+/* Main */
+.section {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.hobby-list,
+.project-list {
+  list-style: square;
+  padding-left: 20px;
+}
+/* AUDIO VIDEO */
+.audio-player,
+.video-player {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+/* table */
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.resume-table th,
+.resume-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.resume-table th {
+  background-color: #f0f0f0;
+}
+/* form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form input[type="submit"] {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  transition: 0.3s;
+}
